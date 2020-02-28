@@ -1,0 +1,66 @@
+list:
+1.It is mutable so we can add or delete or do any kind of change in it. 
+2.Here we can write same value multiple times in it.
+3.It is ordered so the sequence will not change how we want to store values will be stored like that only.
+4.values can be accessed with the use of index.
+5.slicing can be done here.
+6.it is written inside square brackets separeted by comma..
+
+Tuple:
+1.It is immutable so can not do add or delete type of operations on it is a kind of read only data type.
+2.Here we can write same value multiple times if needed.
+3.It is ordered so the sequence will not change how we want to store values will be stored like that only.
+4.values can be accessed with the use of index.
+5.slicing can be done here.
+6.it is written inside parenthesis separated by comma.
+7.it is more time efficient and space efficient.
+
+Set:
+1.it is mutable we can make changes in it.
+2.here we can not write same value multiple times because it will store that only once.
+3.It is not ordered so it store the values in any order we can not store the values as our will.
+4.values can not be accessed as we dont know which value is stored at which index.
+5.we can not do slicing dirctly on it.
+6.we can do mathematical notations on it like union,intersection,difference,symmentric difference .
+7.it is written inside curly braces but if we clear it will print set().
+8.it follows the hassing mechanism so every element should be immutable only here 
+9.in set only we can use tuple and frozen set or normal elements.
+10.reading data is faster over here due to heapping mechanism.
+
+frozen set:
+1.it is Immutable we can not change anything in it.
+2. frozen sets can be used as key in Dictionary or as element of another set.
+3.it is unordered like set only.
+4.values can not be accessed as we dont know which value is stored at which index.
+5.we can not do slicing dirctly on it.
+6.written inside curly braces separeted by comma.
+7.it is written inside curly braces but if we clear it will print frozenset().
+
+
+dictionary:
+1.Here the keys are immutable and values can be mutable or immutable.
+2.here we can write same values multiple times in it.
+3.it is unordered so it can store the values in any order.
+4.values can be accessed with the help of key.
+5.we can not perform slicing on it.
+6.it is written inside curly braces and if we clear it will print {}.
+7.the key and value are separeted by colon and items are separeted by comma.
+8.Reading and retriving data is very fast over here as we can use Keys for that.
+
+string:
+1.it is immutable so we can not change the string.
+2.Here we can write same value multiple times.
+3.Square brackets can be used to access elements of the string.
+4.String literals in python are surrounded by either single quotation marks, or double quotation marks.
+5.we can perform slicing on it.
+6.values can be accessed with the help of index.
+7.we can use operators on it to do some operations but the operetares will work different then that of number in this case.
+ 
+Number:
+1.There are three numeric types in Python: int; float; complex.
+2.it is immutable we can not change it.
+3.we can use operators to do operation on it.
+3.values can be accessed  with the help of index.
+4.we can convert one type to other type.
+5.It is written directly without any noation if we write it inside cotation it wiil convert as string.
+

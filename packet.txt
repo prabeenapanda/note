@@ -1,0 +1,23 @@
+In computer networks, a packet is a container or box that carries data over a TCP/IP network and internetworks.
+ A packet is the most fundamental logical arbitration of data that is passed over a network.
+
+A packet normally represents the smallest amount of data that can traverse over a network at a single time. 
+A TCP/IP network packet contains several pieces of information, including the data it is carrying, source
+ destination IP addresses, and other constraints required for quality of service and packet handling.
+
+Header - The header contains instructions about the data carried by the packet. These instructions may include:
+Length of packet (some networks have fixed-length packets, while others rely on the header to contain this information)
+Synchronization (a few bits that help the packet match up to the network)
+Packet number (which packet this is in a sequence of packets)
+Protocol (on networks that carry multiple types of information, the protocol defines what type of packet is being transmitted: e-mail, Web page, streaming video)
+Destination address (where the packet is going)
+Originating address (where the packet came from)
+
+
+Payload - Also called the body or data of a packet. This is the actual data that the packet is delivering to the destination. If a packet is fixed-length, then
+ the payload may be padded with blank information to make it the right size.
+
+
+Trailer - The trailer, sometimes called the footer, typically contains a couple of bits that tell the receiving device that it has reached the end of the packet.
+ It may also have some type of error checking. The most common error checking used in packets is Cyclic Redundancy
+ Check (CRC)

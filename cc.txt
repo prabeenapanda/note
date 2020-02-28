@@ -1,0 +1,159 @@
+CLOUD: it is a term used to describe a global network of servers, each with a unique function. 
+      The cloud is not a physical entity, but instead is a vast network of remote servers around the globe which are hooked together and meant to operate as
+      a single ecosystem. These servers are designed to either store and manage data, run applications or deliver content or a service such as streaming videos,
+      web mail, office productivity software or social media. Instead of accessing files and data from a local or personal computer, you are accessing them 
+      online from any Internet-capable device—the information will be available anywhere you go and anytime you need it.
+
+
+"The cloud" refers to servers that are accessed over the Internet, and the software and databases that run on those servers.
+ Cloud servers are located in data centers all over the world.
+
+
+
+CLOUD COMPUTING:cloud is a metaphore for internet.
+   1.Cloud computing is the on-demand availability of computer system resources,
+     especially data storage and computing power, without direct active management by the user.
+     The term is generally used to describe data centers available to many users over the Internet.
+
+   2. Clouds may be limited to a single organization (enterprise clouds),
+    be available to many organizations (public cloud), or a combination of both (hybrid cloud).
+
+   3. Cloud computing relies on sharing of resources to achieve coherence and economies of scale.
+      it allows companies to avoid or minimize up-front IT infrastructure costs.
+
+   4.Proponents also claim that cloud computing allows enterprises to get their applications up and running faster,
+     with improved manageability and less maintenance,and that it enables IT teams to more rapidly adjust resources
+     to meet fluctuating and unpredictable demand.
+
+   5.Cloud providers typically use a "pay-as-you-go" model, which can lead to unexpected operating expenses 
+    if administrators are not familiarized with cloud-pricing models.
+
+   6.These services are broadly divided into three categories:
+     Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS) and Software-as-a-Service (SaaS).
+
+   7.A cloud service has three distinct characteristics that differentiate it from traditional web hosting.
+     It is sold on demand, typically by the minute or the hour;it is elastic -- a user can have as much or
+     as little of a service as they want at any given time; and the service is fully managed by the provider
+     (the consumer needs nothing but a personal computer and Internet access).
+ 
+
+characteristics and benefits:
+Cloud computing boasts several attractive benefits for businesses and end users.
+Five of the main benefits of cloud computing are:
+
+a.Self-service provisioning: End users can spin up compute resources for almost any type of workload on demand. 
+          This eliminates the traditional need for IT administrators to provision and manage compute resources.
+
+b.Elasticity: Companies can scale up as computing needs increase and scale down again as demands decrease.
+          This eliminates the need for massive investments in local infrastructure, which may or may not remain active.
+
+c.pay per use: Compute resources are measured at a granular level, enabling users to pay only for the resources and workloads they use.
+
+d.Workload resilience: Cloud service providers often implement redundant resources to ensure resilient storage and
+           to keep users' important workloads running -- often across multiple global regions.
+
+e.Migration flexibility: Organizations can move certain workloads to or from the cloud -- or to different cloud platforms
+         -- as desired or automatically for better cost savings or to use new services as they emerge.
+
+
+Types of cloud computing services:
+Although cloud computing has changed over time, it has been divided into three broad service categories: 
+infrastructure as a service (IaaS), platform as a service (PaaS) and software as a service (SaaS).
+
+a.IaaS providers,ur already developed server u will deply there nd to run that sw whatever else is needed like db,nw etc u can use that from cloud.
+ such as AWS, supply a virtual server instance and storage, as well as APIs that enable users to migrate workloads 
+        to a VM. Users have an allocated storage capacity and can start, stop, access and configure the VM and storage as desired. IaaS providers 
+        offer small, medium, large, extra-large and memory- or compute-optimized instances, in addition to customized instances, for various workload needs.
+
+b.In the PaaS modelhere u will develope a new sw and use everything like nw,db and deply that over there in clod.
+ cloud providers host development tools on their infrastructures. Users access these tools over the internet using APIs,
+       web portals or gateway software. PaaS is used for general software development, and many PaaS providers host the software after it's developed.
+       Common PaaS providers include Salesforce's Force.com, AWS Elastic Beanstalk and Google App Engine.
+
+c.SaaS here only u have to deplo already developed sw in the clod.
+  is a distribution model that delivers software applications over the internet; these applications are often called web services.
+        Users can access SaaS applications and services from any location using a computer or mobile device that has internet access.
+        One common example of a SaaS application is Microsoft Office 365 for productivity and email services.
+
+
+Deployment models:
+It is mainly of three types private,public,hybrid.
+
+Private Cloud:Private cloud is cloud infrastructure operated solely for a single organization, whether managed internally or by a third party, 
+      and hosted either internally or externally. Undertaking a private cloud project requires significant engagement to
+      virtualize the business environment, and requires the organization to reevaluate decisions about existing resources.
+
+Public Cloud:A cloud is called a "public cloud" when the services are rendered over a network that is open for public use.
+      Public cloud services may be free. Technically there may be little or no difference between public and private cloud architecture, 
+      however, security consideration may be substantially different for services (applications, storage, and other resources) that are made available by
+      a service provider for a public audience and when communication is effected over a non-trusted network. Generally, public cloud service providers 
+      like Amazon Web Services (AWS), IBM, Oracle, Microsoft and Google own and operate the infrastructure at their data center and access is generally
+      via the Internet. 
+
+Hybrid Cloud:Hybrid cloud is a composition of two or more clouds (private, community or public) that remain distinct entities but are bound together,
+     offering the benefits of multiple deployment models. Hybrid cloud can also mean the ability to connect collocation, managed and/or dedicated services 
+     with cloud resources.A hybrid cloud service crosses isolation and provider boundaries so that it can't be simply put in one category of 
+     private, public, or community cloud service. It allows one to extend either the capacity or the
+     capability of a cloud service, by aggregation, integration or customization with another cloud service.
+
+other-
+Community Cloud:
+     Community cloud shares infrastructure between several organizations from a specific community with common concerns 
+     (security, compliance, jurisdiction, etc.), whether managed internally or by a third-party, and either hosted internally or externally.
+     The costs are spread over fewer users than a public cloud (but more than a private cloud), so only some of the cost savings potential
+     of cloud computing are realized.
+
+
+Security of cc:
+    Security remains a primary concern for businesses contemplating cloud adoption -- especially public cloud adoption. 
+    Public cloud service providers share their underlying hardware infrastructure between numerous customers, as public cloud is a multi-tenant environment.
+    This environment demands copious isolation between logical compute resources. At the same time, access to public cloud storage and compute resources 
+    is guarded by account login credentials.Many organizations bound by complex regulatory obligations and governance standards are still hesitant to place
+    data or workloads in the public cloud for fear of outages, loss or theft. However, this resistance is fading, as logical isolation has proven reliable,
+    and the addition of data encryption and various identity and access management tools has improved security within the public cloud.
+
+
+working:
+   To understand the workings of a cloud computing system, it is easier to divide it into two sections: the front end and the back end. 
+   They are connected to each other through a network, usually the Internet.
+   The front end is the side of the computer user or client. The back end is ‘the cloud’ section of the system.
+   The front end consists of the client’s computer or computer network. Also the application essential to access the cloud computing system.
+   It is not necessary that all cloud computing systems have the same user interface.
+   On the back end of the cloud technology system, there are various computers, servers and data storage systems that make up the cloud.
+
+Advantages:
+1.sold on demand:we can by per minute or per hour as our choice it is not like we have to buy some certain amount we can change it by our own wish also
+  so it will cost efficient as we paying for that much we need.
+2.Elastic:the company can use as much as it want when the demand increases and it can sacle down if the demnad decreases so it will be helpful for companies.
+ mostly for the startup companies as they don't have that much amount initially.
+3.Service is fully managed by the provider:The company do't have to do much it just have to select which type of cloud it wants and for howmany time.
+  and only high speed internet is needed.
+
+some other benifits:
+
+Accessible from anywhere:
+Applications and data are not tied to a device. They are accessible from anywhere, enabling real-time collaboration by remote teams.
+
+Flexible and scalable:
+ Cloud-based applications are infinitely customizable. It is easy to increase power, storage, and bandwidth as users’ needs change.
+
+Cost-effective:
+ Businesses only pay for what they use, usually on a per-month, per-seat basis. There is no hardware taking up space and using electricity 24/7.
+
+Hassle-free updates:
+ Web-based software is constantly updated. The vendor handles maintenance, backups, and troubleshooting.
+
+Fast:
+ Service is delivered on demand through a global network of secure data centers that are constantly upgraded for maximum efficiency and performance.
+
+Secure:
+Information is not vulnerable to a flood, fire, natural disaster, or hardware failure in one location.
+ Security protocols and infrastructure are constantly analyzed and updated to address new threats.
+
+Factors:
+1.Virtualization:It is like some space to store data to all the companies now in 21st century doing it manually without using internet
+ it is really time consuming so to save the time and make it easier to store the data we use this.
+2.Distributed computing:The cloud is not centralised by any computer so we can use the cloud bu any computer in any manner.
+3.Access To high speed of internet is needed to use cloud computing.
+
+

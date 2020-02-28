@@ -1,0 +1,72 @@
+
+
+1.Types of backup
+      *Full backup
+      *Differential backup
+      *Incremental Backup
+
+
+
+
+2.what is full backup
+
+   full backup is the process of making at least one additional copy of all data files that an organization wishes
+to protect in a single backup operation.it is  is a complete backup of all files on the designated hard drive.
+
+
+
+
+3.What is a differential backup
+
+     A differential backup is one practical method for backing up single files or folders that change every day 
+in backup strategies. A differential backup backs up only the files that changed since the last full backup.
+For example, suppose you do a full backup on Sunday. On Monday you back up only the files that changed since Sunday
+on Tuesday you back up only the files that changed since Sunday, and so on until the next full backup.
+
+
+
+4.Differential Backup .vs Full Backup
+
+   Differential backups are quicker than full backups because so much less data is being backed up.
+But the amount of data being backed up grows with each differential backup task until the next full back up.
+    Differential backups are more flexible than full backups, but still unwieldy to do more than about once a day, 
+especially as the next full backup approaches.
+
+
+5.What is an incremental backup
+
+     Incremental backups also back up only the changed data, but it only backs up the data that has changed since 
+the last backup -- be it a full or incremental backup. They are sometimes called "differential incremental backups,
+" while differential backups are sometimes called "cumulative incremental backups." Confused yet? Don't be.
+
+    Let's suppose that you do an incremental backup on Tuesday, you'll only back up the data that changed since
+the incremental backup on Monday. The result is a much smaller and faster backup. The advantage of incremental
+ backups is the shorter the time intervals between backups, with fewer data to be backed up.
+
+
+6.full backup vs. incremental backup
+
+Compare with full backup, the incremental backup takes less backup time and produces a smaller image file.
+And compare with differential backup, an incremental backup will save your space better. 
+That's the main reason why most people choose to make an incremental backup.
+
+
+
+
+
+There are two broadly defined approaches to backup: on-premises backup and remote backup. Either route (or both)
+ may be appropriate for your nonprofit.
+
+On-Premises Backup
+In an on-premises setup, you can copy your data to a second hard drive, other media, or a shared drive, either manually or at specified intervals.
+With this setup, all the data is within your reach — and therein lies both its value and its risk. You can always access your information when necessary,
+but that information is vulnerable to loss, whether through theft (someone breaking in and stealing equipment) or damage (such as a leaky water pipe or
+ a natural disaster).
+
+Remote Backup
+In remote backup, your computer automatically sends your data to a remote center at specified intervals. 
+To perform a backup, you simply install the software on every computer containing data you want to back up, set up a backup schedule, 
+and identify the files and folders to be copied. The software then takes care of backing up the data for you.
+With remote backup solutions, you don't incur the expense of purchasing backup equipment, and in the event of a disaster you can still
+ recover critical data. This makes remote backup ideal for small nonprofits (say, 2 to 10 people) that need to back up critical information such as
+ donor lists, fundraising campaign documents, and financial data, but lack the equipment, expertise, or inclination to set up dedicated on-site storage.

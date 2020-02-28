@@ -1,0 +1,106 @@
+1. Context Manager in Python ?
+  after the use of any resource it is really neede for any programming language to release that resource and it will be very efficient if we can do
+  that automatically.So in Python The Context Manager takes care of that it facilitate the proper handling of resources by using with keyword. 
+  Context managers can be written using classes or functions(with decorators).Here there is no need of the close statement. 
+  eg:with open("test.txt") as f:    
+    data = f.read() 
+ 
+2. deep copy and shallow copy in python?
+ Both of these is used to copy the value .In case of deep copy the memory reference for the original object and the copied object will be different
+ so any changes made in the copied object won't reflect in the origan object.But in case of Shallow copy the memory reference for both original object 
+ and copied object will be same so any changes made in the copied object will reflect in the original object.
+ eg:# importing copy module 
+      import copy 
+# initializing list 1  
+li1 = [1, 2, [3,5], 4] 
+# using copy for shallow copy   
+li2 = copy.copy(li1)   
+# using deepcopy for deepcopy   
+li3 = copy.deepcopy(li1) 
+
+3. what is the use of .pyc files and what will happen if you delete those file means?
+ The .pyc contain the compiled bytecode of Python source files, which is what the Python interpreter compiles the source to. This code is then 
+ executed by Python's virtual machine. There's no harm in deleting them (.pyc), but they will save compilation time if you're doing lots of processing
+ It's not an executable; it's used internally by the compiler as an intermediate step. In general, you don't make .pyc files by hand,
+ the interpreter makes them automatically.
+4. what is abstract class and interface in python
+Abstract classes are classes that contain one or more abstract methods. An abstract method is a method that is declared, but contains no implementation.
+Abstract classes allow you to provide default functionality for the subclasses. Abstract classes are not able to instantiated and it needs subclasses
+ to provide implementations for those abstract methods which are defined in abstract classes.
+ An interface, for an object, is a set of methods and attributes on that object.
+In Python, we can use an abstract base class to define and enforce an interface.
+ 
+5. how to print perticular word in a file?
+you have to open the file in write mode if there is nothing in that file or if there exists somthing already in that file open that in append mode
+ and write the word whatyou want to write in it by taking the cursor to the location or in the next line.
+f = open('helloworld.txt','w')
+f.write('hello')
+f.close()
+
+6. Decorators in python?
+ A decorator is a function that takes another function and extends the behavior of the latter function without explicitly modifying it.
+ It adds some functionality to the existing function without modifying it.
+ eg:
+ def smart_divide(func):
+   def inner():
+      a =int(input("enter the value of a:"))
+      b=int(input("enter the value of b:"))
+      print("I am going to divide",a,"and",b)
+      if b == 0:
+         print("Whoops! cannot divide")
+      else:
+         print(a/b)
+   return inner()
+   return func(a,b)
+
+@smart_divide
+def divide(a,b):
+   return(a/b)
+Q) using deep copy and shallow copy modify the list ? 
+
+	import copy
+
+	list1 = [[1,2],[3,4],[5,6]]
+
+	list2 = copy.copy(list1)
+	list1.append([7,8])
+	print("list1 ",list1)
+	print("list2 ",list2)
+	
+Q). using the file handling get the perticular word in all the lines?
+
+	with open("C:/test1.py",'r') as file:
+		for each_line in file:
+			if 'def' in each_line.split():
+				print(each_line)
+				
+Q) using decorators in python return the positive and negative values ? 
+
+
+	def my_decorator(func):
+		def wrapper(a,b):
+			if a>b:
+				result = func(a,b)
+			else:
+				result = func(b,a)
+		return wrapper
+
+
+
+
+	@my_decorator
+	def sub(a,b):
+		diff = a-b
+		print("Difference is :",diff)
+
+	@my_decorator
+	def div(a,b):
+		 di = a/b
+		 print("Division  is :",di)
+
+	print("--------Positive-----------")	 
+	sub(10,2)
+	div(10,2)
+	print("--------Negative-----------")
+	sub(2,10)
+	div(2,10)

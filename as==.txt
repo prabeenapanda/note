@@ -1,0 +1,68 @@
+mutable
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\prabeena.panda>python
+Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD6
+4)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a = "helloddaddsdeeedeeeeeedddeeedeeddeeeee ddeherrererere"
+>>> c = "helloddaddsdeeedeeeeeedddeeedeeddeeeee ddeherrererere"
+>>> a is c
+False
+>>> import sys
+>>> sys.getsizeof(a)
+102
+>>> c = "helloddaddsdeeedeeeeee"
+>>> a = "helloddaddsdeeedeeeeee"
+>>> a is c
+True
+>>> sys.getsizeof(a)
+71
+>>> a = [1,2,3]
+>>> b = [1,2,3]
+>>> a is b
+False
+>>> sys.getsizeof(a)
+88
+>>> a = [1,2]
+>>> b = [1,2]
+>>> a is b
+False
+>>> sys.getsizeof(a)
+80
+>>> a = [1]
+>>> b = [1]
+>>> sys.getsizeof(a)
+72
+>>> b = []
+>>> a = []
+>>> sys.getsizeof(a)
+64
+>>> a is b
+False
+>>>a=2
+b=2
+a is b
+true
+sys.getsizeof(a)
+28
+sys.getsizeof(b)
+28
+
+a=57689790898
+b=57689790898
+a is b 
+false
+sys.getsizeof(a)
+32
+sys.getsizeof(b)
+
+
+in case of numbers
+from 1 o 9 digits the size is 28 only and for 28 the as operator will show true
+after that from 10 digit onwards size is 32 and for 32 the as operator will show false
+
+
+
+the process and output in pycharm is different then cmd

@@ -1,0 +1,17 @@
+init:
+All classes have a function called __init__(), which is always executed when the class is being initiated.
+Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being 
+created.it is also called as constructor.it creats some space in memory.it is used to initialise attributes.
+
+
+self:
+The self parameter is a reference to the current instance of the class, and is used to access variables,methods,attribute of the class.
+It does not have to be named self , you can call it whatever you like, but it has to be the first parameter of any function of class.
+for the method to know which object it and what operation to do self is used.
+
+
+new:
+Method __new__ is responsible to create instance, so you can use this method to customize object creation
+# . Typically method __new__ will return the created instance object reference.
+# Method __init__ will be called once __new__ method completed execution.
+# __init__ doesn't return anything; it's only responsible for initializing the instance after it's been

@@ -1,0 +1,5 @@
+Vmware ISO:
+VMware includes support for ISO images, which represent CDs or DVDs. When you load an ISO image into a VMware program, the virtual machine sees 
+the ISO image as if it were a physical disc. ISO images are useful for loading operating systems or business software on machines that don’t have 
+physical disc drives. You can host ISO images on a file server and make them available over a business network. Load ISO images while a virtual
+ machine is running -- this is equivalent to ejecting a physical disc and inserting a new one.
